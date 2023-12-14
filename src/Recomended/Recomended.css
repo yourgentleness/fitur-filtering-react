@@ -1,0 +1,16 @@
+.recomended-title {
+    margin-left: 20rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.recomended-flex {
+    display: flex;
+    margin-left: 20rem;
+}
+
+Button:hover, Button:focus {
+    background-color: #f7f6f6;
+    border-radius: 5px;
+}

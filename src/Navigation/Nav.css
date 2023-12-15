@@ -1,15 +1,15 @@
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 20px; 
-    margin-left: 2rem;
+    margin-left: 12.5rem;
     border-bottom: 2px solid #f3f3f3;
 }
 
 input {
     padding: 10px 20px;
-    margin-right: 20px;
+    margin: 0 70px;
     outline: none;
     border-radius: 5px;
     background: #fff;
@@ -26,7 +26,7 @@ input:hover, input:focus {
 .nav-icons {
     width: 1.5rem;
     height: 1.2rem;
-    margin-left: 2rem;
+    margin-right: 2rem;
     color: #535353;
 }
 

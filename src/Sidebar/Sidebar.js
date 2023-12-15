@@ -5,15 +5,15 @@ import { BsShopWindow } from "react-icons/bs";
 import Color from './Color/Color';
 import Price from './Price/Price';
 
-function Sidebar() {
+function Sidebar({ handleChange }) {
   return (
     <section className='sidebar'>
         <div className='logo-container'>
             <BsShopWindow/>
         </div>
-        <Category/>
-        <Color/>
-        <Price/>
+        <Category handleChange={handleChange}/>
+        <Color handleChange={handleChange}/>
+        <Price handleChange={handleChange}/>
     </section>
   )
 }

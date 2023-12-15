@@ -3,6 +3,8 @@ import Product from "./Product/Product";
 import Recomended from "./Recomended/Recomended";
 import "./index.css"
 import Sidebar from "./Sidebar/Sidebar";
+import { useState } from "react";
+import data from "./db/data"
 
 function App() {
   return (

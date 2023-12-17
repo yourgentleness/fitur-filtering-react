@@ -42,7 +42,7 @@ const Color = ({ handleChange })=> {
                 <input
                 handleChange={handleChange}
                 type="radio"
-                value={""}
+                value={"white"}
                 name="test1"
                 />
                 <span 

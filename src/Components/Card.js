@@ -1,10 +1,10 @@
 import React from "react";
 import { IoBagAdd } from "react-icons/io5";
 
-function Card({ img, title, star, reviwes, prevPrice, newPrice }) {
+function Card({ img, title, star, reviews, prevPrice, newPrice }) {
     return (
         <>
-        <section className="card-container">
+        <section >
           <section className="card">
           <img className="card-img" alt={title} src={img}/>
           <div className="card-detail">
@@ -16,7 +16,7 @@ function Card({ img, title, star, reviwes, prevPrice, newPrice }) {
                 {star} {star} {star} {star}
             </div>
             
-            <span className="total-reviews">4</span>
+            <span className="total-reviews">{reviews}</span>
           </section>
           
           <section className="card-price">
